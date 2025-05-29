@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     marginBottom: 30,
     color: '#555',
-    lineHeight: 24, // Espaçamento entre as linhas
+    lineHeight: 24, 
   },
   errorText: {
     fontSize: 18,
