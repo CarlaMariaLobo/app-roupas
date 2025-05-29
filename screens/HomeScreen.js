@@ -35,8 +35,7 @@ function HomeScreen({ navigation }) {
         renderItem={renderProduct} // Função que renderiza cada item
         keyExtractor={(item) => item.id} // Chave única para cada item (melhora performance)
         numColumns={2} // Exibe 2 produtos por linha
-        contentContainerStyle={styles.productList} // Estilos para o container da lista
-      />
+        contentContainerStyle={styles.productList} 
     </View>
   );
 }
