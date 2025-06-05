@@ -29,7 +29,7 @@ export default function Home() {
         style={styles.lista}
       />
 
-      <Button title="Ir para detalhes" onPress={() => router.push('/detalhes')} />
+      <Button title="Ir para detalhes" onPress={() => router.push('/')} />
     </View>
   );
 }
