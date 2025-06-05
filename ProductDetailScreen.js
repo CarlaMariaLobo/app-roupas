@@ -29,6 +29,6 @@ function HomeScreen({ navigation }) {
   );
 }
 
-// ... seus estilos aqui ...
+
 
 export default HomeScreen;
